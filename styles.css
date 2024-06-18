@@ -4,13 +4,13 @@
 	
 }
 #container::before {
-  content: " the main content of the container";
+  content: " Before Element";
   color: #f00;
 	font-size: 20px;
 }
 
 #container::after {
-  content: " the main content of the container";
+  content: " After Element";
   font-size: 20px;
 	color: #f00;
 }
