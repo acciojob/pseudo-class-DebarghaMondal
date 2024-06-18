@@ -17,14 +17,14 @@
 	margin: 20px;
 }
 #container::before {
-  content: "Your content here";
+  content: "Before";
   /* Add your other styles here */
 	color: #f00;
   font-size: 20px;
 }
 
 #container::after {
-  content: "Your content here";
+  content: "After";
   /* Add your other styles here */
 	color: #f00;
   font-size: 20px;
