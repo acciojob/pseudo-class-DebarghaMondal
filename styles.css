@@ -13,13 +13,19 @@
   color: #f00;
   font-size: 20px;
 } */
-
+#container{
+	margin: 20px;
+}
 #container::before {
   content: "Your content here";
   /* Add your other styles here */
+	color: #f00;
+  font-size: 20px;
 }
 
 #container::after {
   content: "Your content here";
   /* Add your other styles here */
+	color: #f00;
+  font-size: 20px;
 }
