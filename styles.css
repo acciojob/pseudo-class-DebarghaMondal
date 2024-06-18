@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+#container{
+	margin: 20px;
+	
+}
+#container::before {
+  content: " the main content of the container";
+  color: #f00;
+	font-size: 20px;
+}
+
+#container::after {
+  content: " the main content of the container";
+  font-size: 20px;
+	color: #f00;
+}
+
